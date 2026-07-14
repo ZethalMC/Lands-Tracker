@@ -1,3 +1,0 @@
-iscord.py==2.2.2
-numpy==1.19.5
-requests==2.25.1

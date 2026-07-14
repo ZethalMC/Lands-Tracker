@@ -1,0 +1,24 @@
+{
+  "name": "emc-dynmap-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that archives EarthMC Dynmap town data and renders town boundary history as images/GIFs.",
+  "type": "module",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.53",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "gifenc": "^1.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "overrides": {
+    "undici": "^6.27.0"
+  }
+}
